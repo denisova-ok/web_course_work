@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/game.css">
+    <title> Game </title>
+</head>
+<body>
+   <!--- <div class="buttons">
+        <button type="submit" id="firstLvlButton">Начать на 1-м уровне</button>
+        <button type="submit" id="secondLvlButton">Начать на 2-м уровне</button>
+        <form action="records.html">
+            <button type="submit" id="recordsButton">Посмотреть таблицу рекордов</button>
+        </form>
+        <form action="index.html">
+            <button type="submit" id="menuButton">Выйти в главное меню</button>
+        </form>
+    </div>-->
+    <div id='first' class="container">
+        <canvas id="map"></canvas>
+    </div>
+    <div id="second" class="container-2">
+        <h3>&nbsp;Your health: </h3>
+        &nbsp;<canvas id="health"></canvas>
+        <h3 id="time"></h3>
+    </div>
+<script src="gameManager.js" type="module"></script>
+</body>
+</html>

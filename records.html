@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/records.css">
+    <title> Game </title>
+</head>
+<body>
+    <div class="records">
+        <table id="table">
+            <tr>
+                <th colspan="3">1-й уровень</th>
+                <th colspan="3">2-й уровень</th>
+            </tr>
+            <tr id='header'>
+                <th>№</th>
+                <th>Nickname</th>
+                <th>Time</th>
+                <th>№</th>
+                <th>Nickname</th>
+                <th>Time</th>
+            </tr>
+            <tr id="first_row">
+                <td>1</td>
+                <td id="nickname_lvl1_first"></td>
+                <td id="time_lvl1_first"></td>
+                <td>1</td>
+                <td id="nickname_lvl2_first"></td>
+                <td id="time_lvl2_first"></td>
+            </tr>
+            <tr id="second_row">
+                <td>2</td>
+                <td id="nickname_lvl1_second"></td>
+                <td id="time_lvl1_second"></td>
+                <td>2</td>
+                <td id="nickname_lvl2_second"></td>
+                <td id="time_lvl2_second"></td>
+            </tr>
+            <tr id="third_row">
+                <td>3</td>
+                <td id="nickname_lvl1_third"></td>
+                <td id="time_lvl1_third"></td>
+                <td>3</td>
+                <td id="nickname_lvl2_third"></td>
+                <td id="time_lvl2_third"></td>
+            </tr>
+        </table>
+    </div>
+    <form action="./menu.html">
+        <button type="submit" id="menu">Обратно в меню</button>
+    </form>
+    <script src="records.js" type="module"></script>
+</body>
+</html>
